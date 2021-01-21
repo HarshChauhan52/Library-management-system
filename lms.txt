@@ -328,15 +328,6 @@ class librarian
 
 }
 
-class show
-{
-     void disp()
-     {
-          System.out.println("hi");
-     }
-}
-
-
 class library_management_system
 {
 	public static void main(String arg[])
@@ -345,8 +336,7 @@ class library_management_system
         int x=1;
 
         librarian l=new librarian();
-        l.disp();
-
+      
         do
         {
 		System.out.println("Press 1 if you are librarian or Press 2 if you are student");
